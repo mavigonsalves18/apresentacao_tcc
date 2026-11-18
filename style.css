@@ -1,5 +1,5 @@
 @import url('https\://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');\
-:root{--ink:#24231f;--muted:#6d6a62;--paper:#f5f2eb;--white:#fffefa;--gold:#d4a72c;--line:#e5dfd2;azul:#00008B}\
+:root{--ink:#24231f;--muted:#6d6a62;--paper:#f5f2eb;--white:#fffefa;--gold:#d4a72c;--line:#e5dfd2;blue:#00008B}\
 \*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--paper);color:var(--ink);font-family:'DM Sans',sans-serif;line-height:1.65}\
 .top{position:sticky;top:0;z-index:5;display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:14px clamp(18px,5vw,72px);background:rgba(255,254,250,.96);border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}\
 .brand{font-weight:700;color:var(--green);text-decoration:none}.top nav{display:flex;gap:18px;flex-wrap:wrap}.top nav a{font-size:.88rem;color:var(--muted);text-decoration:none}.top nav a:hover,.contents-list a:hover{color:#9a7417}.menu-button{display:none;border:1px solid var(--line);background:white;border-radius:8px;padding:8px 12px}\
