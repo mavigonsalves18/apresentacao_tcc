@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Apresentação sobre perfis de exposição ao petróleo entre pescadores(as) e marisqueiras.">
+  <title>Perfis de exposição ao petróleo | Apresentação</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="#inicio">Perfis de exposição ao petróleo</a>
+    <button class="menu-button" id="menuButton" aria-expanded="false">☰ Seções</button>
+    <nav id="nav">
+      <a href="#introducao">Introdução</a><a href="#revisao">Revisão</a>
+      <a href="#metodologia">Metodologia</a><a href="#resultados">Resultados</a>
+      <a href="#proximos">Próximos passos</a><a href="#referencias">Referências</a>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <section class="hero slide" data-slide="1">
+      <p class="eyebrow">Universidade Federal da Bahia</p>
+      <h1>Perfis de exposição ao petróleo entre pescadores(as) e marisqueiras afetados pelo derramamento do petróleo em 2019</h1>
+      <p class="subtitle">Uma aplicação de Análise de Classes Latentes</p>
+      <div class="author">
+        <p><strong>Maria Vitória dos Santos Gonsalves</strong></p>
+        <p>Orientadora: Verônica Maria Cadena Lima</p>
+        <p>Coorientadora: Leila Denise Amorim</p>
+      </div>
+      <p class="date">03 de julho de 2026</p>
+      <span class="slide-number">Slide 01</span>
+    </section>
+
+    <section class="slide contents" data-slide="2">
+      <span class="slide-number">Slide 02</span><p class="eyebrow">Apresentação</p><h2>Sumário</h2>
+      <ol class="contents-list">
+        <li><a href="#introducao">Introdução</a></li><li><a href="#revisao">Revisão de literatura</a></li>
+        <li><a href="#metodologia">Metodologia</a></li><li><a href="#resultados">Resultados</a></li>
+        <li><a href="#proximos">Próximos passos</a></li><li><a href="#referencias">Referências</a></li>
+      </ol>
+    </section>
+
+    <div class="section-heading" id="introducao"><span>01</span><h2>Introdução</h2></div>
+    <section class="slide" data-slide="3"><span class="slide-number">Slide 03</span><h3>Introdução</h3>
+      <ul>
+        <li>A análise de classes latentes é um método estatístico que pertence à classe de modelos de mistura, utilizado para identificar subgrupos homogêneos não observados;</li>
+        <li>O objetivo da LCA é a definição e caracterização da variável latente para identificar o número de classes que são capazes de descrever os padrões dos dados;</li>
+        <li>Esta metodologia tem sido amplamente utilizada na epidemiologia.</li>
+      </ul>
+    </section>
+    <section class="slide" data-slide="4"><span class="slide-number">Slide 04</span><h3>Objetivos</h3>
+      <h4>Objetivo geral</h4><p>O presente trabalho tem como objetivo geral estudar e descrever o método de análises de classes latentes e análises de classes latentes com covariáveis.</p>
+      <h4>Objetivos específicos</h4><ul>
+        <li>Identificar e caracterizar padrões de exposição ao petróleo, a partir das variáveis indicadoras de exposição ao petróleo durante as atividades de pesca, usando LCA;</li>
+        <li>Estimar o efeito de características socioeconômicas no pertencimento aos perfis de exposição ao petróleo latentes usando LCA com covariáveis.</li>
+      </ul>
+    </section>
+    <section class="slide" data-slide="5"><span class="slide-number">Slide 05</span><h3>Justificativa</h3>
+      <ul><li>Fornecer uma descrição mais detalhada dos perfis latentes de exposição;</li>
+      <li>Aprofundar o estudo das variáveis relacionadas à exposição ao petróleo, identificando padrões de resposta e contribuindo para uma melhor compreensão da heterogeneidade entre os indivíduos expostos.</li></ul>
+    </section>
+
+    <div class="section-heading" id="revisao"><span>02</span><h2>Revisão de literatura</h2></div>
+    <section class="slide" data-slide="6"><span class="slide-number">Slide 06</span><h3>Análise de classes latentes</h3>
+      <p>A LCA é uma abordagem orientada para o indivíduo, no qual busca-se identificar subgrupos não observados a partir dos padrões de respostas das variáveis observadas.</p>
+      <div class="equation">P(Y = y) = ∑<sub>c=1</sub><sup>C</sup> γ<sub>c</sub> ∏<sub>j=1</sub><sup>J</sup> ∏<sub>rj=1</sub><sup>Rj</sup> ρ<sub>j,rj|c</sub><sup>I(yj=rj)</sup></div>
+    </section>
+    <section class="slide" data-slide="7"><span class="slide-number">Slide 07</span><h3>Independência local</h3>
+      <p>Um dos pressupostos da LCA é a independência local, ou seja, se as variáveis observadas são independentes dentro das subpopulações latentes.</p>
+    </section>
+    <section class="slide" data-slide="8"><span class="slide-number">Slide 08</span><h3>Homogeneidade e separação da classe latente</h3>
+      <ul><li>A homogeneidade em classes latentes refere-se à similaridade dos padrões de respostas pertencentes a uma mesma classe.</li>
+      <li>A separação da classe latente refere-se à capacidade do modelo em diferenciar os diferentes grupos de classes latentes a partir dos padrões de respostas observados.</li></ul>
+    </section>
+    <section class="slide" data-slide="9"><span class="slide-number">Slide 09</span><h3>Seleção e avaliação do modelo</h3>
+      <p>Para a seleção do número de classes latentes é importante considerar alguns princípios:</p>
+      <ol><li>Parcimônia;</li><li>Interpretabilidade;</li><li>Denominação das classes.</li></ol>
+    </section>
+    <section class="slide" data-slide="10"><span class="slide-number">Slide 10</span><h3>Critérios de seleção</h3>
+      <p>Entre alguns critérios:</p><ol><li>AIC;</li><li>BIC;</li><li>Estatística qui-quadrado de Pearson (χ²);</li><li>Estatística da razão de verossimilhança (G²);</li><li>Teste de diferença da razão de verossimilhança (TRV);</li><li>Lo-Mendell-Rubin ajustado (LMR ajustado);</li><li>Vuong-Lo-Mendell-Rubin (VLMR).</li></ol>
+    </section>
+    <section class="slide" data-slide="11"><span class="slide-number">Slide 11</span><h3>Análise de classes latentes com covariáveis</h3>
+      <p>O objetivo de introduzir covariáveis em um modelo de classes latentes é identificar características que predizem o pertencimento dos indivíduos nas diversas classes latentes.</p>
+      <div class="equation">P(Y<sub>i</sub> = y<sub>i</sub> | X<sub>i</sub> = x<sub>i</sub>) = ∑<sub>c=1</sub><sup>C</sup> γ<sub>c</sub>(x) ∏<sub>j=1</sub><sup>J</sup> ∏<sub>rj=1</sub><sup>Rj</sup> ρ<sub>j,rj|c</sub><sup>I(yj=rj)</sup></div>
+      <div class="equation">γ<sub>c</sub>(x<sub>i</sub>) = P(L<sub>i</sub> = c | X<sub>i</sub> = x<sub>i</sub>) = exp(β<sub>0c</sub> + β<sub>1c</sub>x<sub>i1</sub> + ... + β<sub>pc</sub>x<sub>ip</sub>) / denominador</div>
+    </section>
+
+    <div class="section-heading" id="metodologia"><span>03</span><h2>Metodologia</h2></div>
+    <section class="slide" data-slide="12"><span class="slide-number">Slide 12</span><h3>Descrição dos dados</h3>
+      <ul><li>Foram coletadas aproximadamente 5.380 toneladas de resíduos do petróleo ao longo da costa brasileira;</li>
+      <li>Moradores e trabalhadores dessas regiões, principalmente pescadores(as) artesanais, marisqueiras e demais povos participaram da limpeza do petróleo no litoral, muitas vezes sem o uso de equipamentos de proteção;</li>
+      <li>O estudo trata de uma pesquisa de natureza observacional e descritiva com delineamento de corte transversal;</li>
+      <li>O questionário contém 325 perguntas, divididas em 13 blocos.</li></ul>
+    </section>
+    <section class="slide" data-slide="13"><span class="slide-number">Slide 13</span><h3>Variáveis do estudo</h3>
+      <div class="figure-placeholder"><strong>Figura 1</strong><p>Variáveis de exposição ao petróleo utilizadas na Análise de Classes Latentes.</p><small>Substitua este espaço pela figura original ou por uma versão editável do diagrama.</small></div>
+      <p class="caption">Figura 1: Variáveis de exposição ao petróleo utilizadas na Análise de Classes Latentes.</p>
+    </section>
+    <section class="slide" data-slide="14"><span class="slide-number">Slide 14</span><h3>Análise estatística</h3>
+      <ul><li>Análise descritiva;</li><li>Variáveis indicadoras agrupadas;</li>
+      <li>Como é recomendado na LCA que a proporção das respostas das categorias das indicadoras observadas seja maior ou igual a 10%, algumas indicadoras de exposição foram recategorizadas.</li></ul>
+    </section>
+    <section class="slide" data-slide="15"><span class="slide-number">Slide 15</span><h3>Diagrama da LCA</h3>
+      <div class="figure-placeholder"><strong>Figura 2</strong><p>Diagrama da LCA de exposição ao petróleo entre pescadores(as) e marisqueiras.</p><small>Espaço reservado para o diagrama original.</small></div>
+      <p class="caption">Figura 2: Diagrama da LCA de exposição ao petróleo entre pescadores(as) e marisqueiras.</p>
+    </section>
+    <section class="slide" data-slide="16"><span class="slide-number">Slide 16</span><h3>LCA com covariáveis</h3>
+      <div class="diagram">
+        <div class="covariates"><span>Sexo</span><span>Idade</span><span>Escolaridade</span><span>Renda mensal</span><span>Estado civil</span><span>Localidade</span><span>Raça</span></div>
+        <div class="arrow">→</div><div class="latent">Exposição ao<br>petróleo</div>
+        <div class="indicators"><span>Q5.10</span><span>Q5.15</span><span>Q5.18.19</span><span>Q5.21.22</span><span>Q5.29.32</span><span>Q5.33.34.35</span></div>
+      </div>
+      <p class="caption">Figura 3: Diagrama da LCA com covariáveis da exposição ao petróleo entre pescadores(as) e marisqueiras.</p>
+    </section>
+
+    <div class="section-heading" id="resultados"><span>04</span><h2>Resultados</h2></div>
+    <section class="slide wide" data-slide="17"><span class="slide-number">Slide 17</span><h3>Descrição da amostra</h3>
+      <p class="caption">Tabela 1: Distribuição das variáveis socioeconômicas, demográficas e ocupacionais entre pescadores expostos ao derramamento de petróleo (2019–2020).</p>
+      <div class="table-wrap"><table><thead><tr><th>Variável</th><th>Categoria</th><th>n</th><th>Frequência (%)</th></tr></thead><tbody>
+        <tr><td>Sexo</td><td>Feminino</td><td>536</td><td>55,89</td></tr><tr><td></td><td>Masculino</td><td>423</td><td>44,11</td></tr>
+        <tr><td>Idade</td><td>Até 30 anos</td><td>130</td><td>13,56</td></tr><tr><td></td><td>31 a 40 anos</td><td>275</td><td>28,68</td></tr><tr><td></td><td>Acima de 40 anos</td><td>554</td><td>57,76</td></tr>
+        <tr><td>Escolaridade</td><td>Fundamental</td><td>664</td><td>69,24</td></tr><tr><td></td><td>Médio/Universitário</td><td>295</td><td>30,76</td></tr>
+        <tr><td>Renda mensal</td><td>Até meio salário mínimo</td><td>208</td><td>21,69</td></tr><tr><td></td><td>De meio a um salário mínimo</td><td>411</td><td>42,86</td></tr><tr><td></td><td>Acima de um salário mínimo</td><td>340</td><td>35,45</td></tr>
+        <tr><td>Estado civil</td><td>Solteiro/Divorciado/Viúvo/Outros</td><td>303</td><td>31,60</td></tr><tr><td></td><td>Casado/União estável</td><td>656</td><td>68,40</td></tr>
+        <tr><td>Localidade</td><td>APA Conde/APA Cairu</td><td>293</td><td>30,55</td></tr><tr><td></td><td>RESEX Canavieiras</td><td>532</td><td>55,47</td></tr><tr><td></td><td>RESEX Corumbau</td><td>134</td><td>13,97</td></tr>
+        <tr><td>Raça</td><td>Preto/Pardo</td><td>814</td><td>84,88</td></tr><tr><td></td><td>Branco/Indígena/Outros</td><td>145</td><td>15,12</td></tr>
+      </tbody></table></div>
+    </section>
+    <section class="slide wide" data-slide="18"><span class="slide-number">Slide 18</span><h3>Comparação dos modelos</h3>
+      <p class="caption">Tabela 2: Comparação dos modelos de classes latentes de acordo com as medidas de ajuste.</p>
+      <div class="table-wrap"><table><thead><tr><th>Medida</th><th>2 classes</th><th>3 classes</th><th>4 classes</th><th>5 classes</th></tr></thead><tbody>
+        <tr><td>Nº de observações</td><td>959</td><td>959</td><td>959</td><td>959</td></tr><tr><td>Nº de parâmetros estimados</td><td>15</td><td>23</td><td>31</td><td>39</td></tr><tr><td>Graus de liberdade residuais</td><td>80</td><td>72</td><td>64</td><td>56</td></tr>
+        <tr><td>AIC</td><td>6101.938</td><td>5952.545</td><td>5914.170</td><td>5898.634</td></tr><tr><td>BIC</td><td>6174.926</td><td>6064.461</td><td>6065.013</td><td>6088.404</td></tr><tr><td>Teste qui-quadrado (χ²)</td><td>377.144</td><td>158.005</td><td>93.668</td><td>59.989</td></tr><tr><td>LMR ajustado</td><td>&lt;0.00001</td><td>&lt;0.00001</td><td>0.0003</td><td>0.0764</td></tr><tr><td>VLMR</td><td>&lt;0.00001</td><td>&lt;0.00001</td><td>0.0003</td><td>0.0735</td></tr>
+      </tbody></table></div>
+    </section>
+    <section class="slide wide" data-slide="19"><span class="slide-number">Slide 19</span><h3>Modelo com 3 classes latentes</h3>
+      <p class="caption">Tabela 3: Parâmetros estimados para o modelo com 3 classes latentes.</p>
+      <p><strong>Prevalência das classes:</strong> Baixa (50,71%), Moderada (27,99%) e Alta (21,31%).</p>
+      <div class="table-wrap"><table><thead><tr><th>Indicador</th><th>Categoria</th><th>% global</th><th>Baixa</th><th>Moderada</th><th>Alta</th></tr></thead><tbody>
+        <tr><td>Q5.10 — Durante a atividade de pesca e mariscagem, você encontrou petróleo?</td><td>Sim</td><td>58,81</td><td>0,33</td><td>0,79</td><td>0,95</td></tr>
+        <tr><td>Q5.15 — Você manipulou/reparou redes de pesca que continham resíduos de petróleo?</td><td>Sim</td><td>27,32</td><td>0,09</td><td>0,31</td><td>0,65</td></tr>
+        <tr><td>Q5.18.19 — Com que frequência e intensidade você sentiu o cheiro do petróleo?</td><td>Não sentiu</td><td>49,74</td><td>0,95</td><td>0,00</td><td>0,08</td></tr>
+        <tr><td></td><td>Baixa e moderada frequência/intensidade</td><td>31,91</td><td>0,04</td><td>0,72</td><td>0,45</td></tr>
+        <tr><td></td><td>Alta frequência/intensidade</td><td>18,35</td><td>0,01</td><td>0,28</td><td>0,47</td></tr>
+        <tr><td>Q5.21.22 — Exposição ao odor de petróleo quando irritante para os olhos/nariz</td><td>Houve exposição</td><td>26,17</td><td>0,00</td><td>0,53</td><td>0,53</td></tr>
+        <tr><td>Q5.29.32 — Exposição dos braços ou mãos ao petróleo</td><td>Houve exposição</td><td>18,35</td><td>0,01</td><td>0,07</td><td>0,74</td></tr>
+        <tr><td>Q5.33.34.35 — Exposição das coxas, pernas ou pés ao petróleo</td><td>Houve exposição</td><td>15,22</td><td>0,02</td><td>0,03</td><td>0,64</td></tr>
+      </tbody></table></div>
+    </section>
+    <section class="slide wide" data-slide="20"><span class="slide-number">Slide 20</span><h3>Associação entre covariáveis e pertencimento às classes</h3>
+      <p class="caption">Tabela 4: Associação entre covariáveis e pertencimento às classes latentes. Grupo de referência: baixa exposição.</p>
+      <div class="table-wrap"><table><thead><tr><th>Variável</th><th>Categoria</th><th>Moderada OR (IC95%)</th><th>Alta OR (IC95%)</th></tr></thead><tbody>
+        <tr><td>Sexo</td><td>Feminino (ref.)</td><td>1,00</td><td>1,00</td></tr><tr><td></td><td>Masculino</td><td>1,52 (0,86; 2,66)</td><td>0,75 (0,51; 1,11)</td></tr>
+        <tr><td>Estado civil</td><td>Solteiro (ref.)</td><td>1,00</td><td>1,00</td></tr><tr><td></td><td>Casado/União estável</td><td>0,65 (0,39; 1,08)</td><td>0,71 (0,49; 1,02)</td></tr>
+        <tr><td>Escolaridade</td><td>Fundamental (ref.)</td><td>1,00</td><td>1,00</td></tr><tr><td></td><td>Médio/Universitário</td><td>1,66 (0,95; 2,90)</td><td>1,29 (0,84; 1,98)</td></tr>
+        <tr><td>Raça</td><td>Preto/Pardo (ref.)</td><td>1,00</td><td>1,00</td></tr><tr><td></td><td>Branco/Indígena/Outros</td><td>1,04 (0,52; 2,08)</td><td>1,12 (0,64; 1,98)</td></tr>
+        <tr><td>Renda</td><td>Até meio salário mínimo (ref.)</td><td>1,00</td><td>1,00</td></tr><tr><td></td><td>De meio a um salário mínimo</td><td>0,61 (0,27; 1,35)</td><td>0,84 (0,45; 1,57)</td></tr><tr><td></td><td>Acima de um salário mínimo</td><td>0,69 (0,31; 1,52)</td><td>0,77 (0,41; 1,42)</td></tr>
+        <tr><td>Idade</td><td>Até 30 anos (ref.)</td><td>1,00</td><td>1,00</td></tr><tr><td></td><td>31 a 40 anos</td><td>0,75 (0,41; 1,38)</td><td>0,96 (0,60; 1,53)</td></tr><tr><td></td><td>Acima de 40 anos</td><td>0,86 (0,45; 1,65)</td><td>0,96 (0,59; 1,57)</td></tr>
+        <tr><td>Localidade</td><td>APAs Conde e Cairu (ref.)</td><td>1,00</td><td>1,00</td></tr><tr><td></td><td>RESEX Canavieiras</td><td>0,64 (0,26; 1,55)</td><td>0,72 (0,38; 1,36)</td></tr><tr><td></td><td>RESEX Corumbau</td><td>0,82 (0,33; 2,04)</td><td>0,66 (0,31; 1,40)</td></tr>
+      </tbody></table></div>
+    </section>
+
+    <div class="section-heading" id="proximos"><span>05</span><h2>Próximos passos</h2></div>
+    <section class="slide" data-slide="21"><span class="slide-number">Slide 21</span><h3>Próximos passos</h3>
+      <ul><li>Implementação da estimação dos parâmetros de LCA com covariáveis em 3 etapas;</li>
+      <li>Estudo e sumarização de LCA com respostas distais;</li>
+      <li>Aplicação de LCA com respostas distais aos dados do derramamento;</li>
+      <li>Realização de um estudo de simulação para avaliar a performance dos métodos com LCA para cenários próximos ao do estudo sobre derramamento de petróleo.</li></ul>
+    </section>
+
+    <div class="section-heading" id="referencias"><span>06</span><h2>Referências</h2></div>
+    <section class="slide refs" data-slide="22"><span class="slide-number">Slide 22</span><h3>Referências I</h3><ol start="1">
+      <li>Amorim, L. D. A. F.; Freire, M. E. S.; Tuy, P. G. d. S. E.; Leroux, J. M.; Bahamonde, N. M. S. G. “Análise de classes latentes: Um tutorial usando software estatístico”. Universidade Federal da Bahia, 2015. Disponível no Repositório Institucional da UFBA.</li>
+      <li>Almeida, R. R. d. S. M. T. d. “O derramamento de óleo na costa nordestina e a responsabilização civil pelos danos existenciais causados aos povos das águas”. In: <em>Direitos fundamentais em processo</em>. Brasília: ESMPU, 2020.</li>
+      <li>Fattore, G. L.; Amorim, L. D.; Santos, L. M. d.; Santos, D. N. d.; Barreto, M. L. “Experiences of discrimination and skin color among women in urban brazil: A latent class analysis”. <em>Journal of Black Psychology</em>, 46, 144–168, 2020.</li></ol>
+    </section>
+    <section class="slide refs" data-slide="23"><span class="slide-number">Slide 23</span><h3>Referências II</h3><ol start="4">
+      <li>Meyers-Pantele, S.; Rendina, H.; Talan, A.; Shalhav, O.; Lammert, S.; Horvath, K. “Characterizing substance use typologies and their association with hiv viral load outcomes: A latent class analysis among sexual minority men living with hiv”. <em>Drug and Alcohol Dependence</em>, 227, 108928, 2021.</li>
+      <li>Rêgo, R. F.; Machado, L. O. R.; Sentilles, F.; Mota, L. d. S. R. d.; Lima, V. M. C.; Meyer, A.; Northcross, A. L. “Developing epidemiological research in response to an oil spill disaster in brazil: study design and validation of a questionnaire”. <em>Ciência &amp; Saúde Coletiva</em>, 31(1), 2026.</li></ol>
+    </section>
+    <section class="slide refs" data-slide="24"><span class="slide-number">Slide 24</span><h3>Referências III</h3><ol start="6">
+      <li>Soares, M. O.; Teixeira, C. E. P.; Bezerra, L. E. A.; Rabelo, E. F.; Castro, I. B.; Cavalcante, R. M. “The most extensive oil spill registered in tropical oceans (brazil): the balance sheet of a disaster”. <em>Environmental Science and Pollution Research</em>, 29, 19869–19877, 2022.</li>
+      <li>Collins, L. M.; Lanza, S. T. <em>Latent Class and Latent Transition Analysis</em>. John Wiley and Sons, Hoboken, New Jersey, 2010.</li>
+      <li>Weller, B. E.; Bowen, N. K.; Faubert, S. J. “Latent class analysis: A guide to best practice”. <em>Journal of Physiotherapy</em>, 66(4), 287–292, 2016.</li></ol>
+    </section>
+    <section class="slide refs" data-slide="25"><span class="slide-number">Slide 25</span><h3>Referências IV</h3><ol start="9">
+      <li>Lissa, C. J. V.; Garnier-Villarreal, M.; Anadria, D. “Recommended practices in latent class analysis using the open-source r-package tidysem”. <em>Structural Equation Modeling: A Multidisciplinary Journal</em>, 31(3), 526–534, 2023.</li>
+      <li>Kongsted, A.; Nielsen, A. M. “Latent class analysis in health research”. <em>Journal of Physiotherapy</em>, 55–58, 2017.</li>
+      <li>Muthén, L. K.; Muthén, B. O. <em>Mplus User’s Guide</em>. 8th ed. Los Angeles, CA, 1998–2017. Version 8.</li></ol>
+    </section>
+    <section class="slide refs" data-slide="26"><span class="slide-number">Slide 26</span><h3>Referências V</h3><ol start="12">
+      <li>Pena, P. G. L. et al. “Derramamento de óleo bruto na costa brasileira em 2019: emergência em saúde pública em questão”. <em>Cadernos de Saúde Pública</em>, 36(2), 2020.</li>
+      <li>Linzer, D.; Lewis, J. <em>poLCA: Polytomous Variable Latent Class Analysis</em>, 2026. R package version 1.6.0.2.</li>
+      <li>R Core Team. <em>R: A Language and Environment for Statistical Computing</em>. R Foundation for Statistical Computing, Vienna, Austria, 2026.</li>
+      <li>Kline, R. B. <em>Principles and Practice of Structural Equation Modeling</em>. 4th ed. The Guilford Press, 2016.</li></ol>
+    </section>
+    <section class="slide refs" data-slide="27"><span class="slide-number">Slide 27</span><h3>Referências VI</h3><ol start="16">
+      <li>Carvalho, M. N.; Falcão, I. R.; Lima, V. M. C.; Filho, E. d. S. R.; Machado, L. O. R.; Sentilles, F.; Rêgo, R. d. C. F. “Vulnerabilização socioambiental de pescadores(as) artesanais frente ao derramamento de petróleo de 2019: exposição humana, ameaças à saúde e trabalho na região nordeste do brasil”. <em>Revista Brasileira de Saúde Ocupacional</em>, 50, 2025.</li>
+      <li>Porcu, M.; Giambona, F. “Introduction to latent class analysis with applications”. <em>Journal of Early Adolescence</em>, 37(1), 129–158, 2017.</li></ol>
+    </section>
+    <footer><p>Apresentação acadêmica · Universidade Federal da Bahia</p><a href="#inicio">Voltar ao início ↑</a></footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
